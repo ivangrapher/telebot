@@ -1,5 +1,19 @@
 Порядок установки:
+Installation instructions:
 
+cd
+https://github.com/ivangrapher/telebot
+nano /$USER/telebot/main.py
+
+ставить свой телеграм токен
+put your telegram token
+
+bot = telebot.TeleBot("TOKEN")
+
+Запустить бота в tmux или screen
+Run bot in tmux or screen
+
+python3 main.py
 
 Бот посылающий уведомление
 Бот работает в 2 потока
