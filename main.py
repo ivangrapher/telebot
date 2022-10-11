@@ -10,7 +10,7 @@ import config
 import json
 import proverka
  
-bot = telebot.TeleBot("5621846479:AAFyD6toWPzw4YM-2oSIBLqEWZ9k3ffK5lw")
+bot = telebot.TeleBot("5621846479:<TOKEN>SIBLqEWZ9k3ffK5lw")
  
 @bot.message_handler(commands=['start'])
 def start_message(message):
