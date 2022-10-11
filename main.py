@@ -58,9 +58,12 @@ def sending():
     tmpr = st.split(",")
     tmpr.pop()
     for key in range(len(tmpr)):
-        user_id = tmpr[key].split()[0]
-        valik = tmpr[key].split(maxsplit=2)[1]
-        bot.send_message(str(user_id), 'валидатор ' + valik + ' в тюрьме')
+        try:
+            user_id = tmpr[key].split()[0]
+            valik = tmpr[key].split(maxsplit=2)[1]
+            bot.send_message(str(user_id), 'валидатор ' + valik + ' в тюрьме')
+        except:
+            pass
  
 @bot.message_handler(func=lambda message: message.text.lower() in ['привет', 'здравствуйте'])
 def send_welcome(message):
