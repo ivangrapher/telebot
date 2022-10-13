@@ -1,3 +1,5 @@
+<h1>Bot for tracking the status of validators HAQQ<h1>
+
 Порядок установки:
 Installation instructions:
 
