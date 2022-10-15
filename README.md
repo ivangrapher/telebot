@@ -5,16 +5,19 @@ Installation instructions:
 
 ```
 cd
-https://github.com/ivangrapher/telebot
-nano /$USER/telebot/main.py
+git clone https://github.com/ivangrapher/telebot
 ```
 
-Открыть main.py и ставить свой телеграм токен <br>
-Open main.py and put your telegram token
+Открыть файл tkn.py и ставить свой телеграм токен вместо TOKEN <br>
+Open the tkn.py file and put your telegram token instead of TOKEN <br>
+
 
 ```
-bot = telebot.TeleBot("TOKEN")
+nano /$USER/telebot/tkn.py
 ```
+
+Открыть файл users.txt и поставить свой user_id
+Open users.txt file and put your user_id
 
 Запустить бота в tmux или screen <br>
 Run bot in tmux or screen
