@@ -1,0 +1,2 @@
+def tkn():
+    return 'TOKEN'
