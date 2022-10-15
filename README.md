@@ -9,8 +9,8 @@ https://github.com/ivangrapher/telebot
 nano /$USER/telebot/main.py
 ```
 
-ставить свой телеграм токен <br>
-put your telegram token
+Открыть main.py и ставить свой телеграм токен <br>
+Open main.py and put your telegram token
 
 ```
 bot = telebot.TeleBot("TOKEN")
