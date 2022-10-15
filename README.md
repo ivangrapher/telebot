@@ -1,6 +1,6 @@
 # Bot for tracking the status of validators HAQQ #
 
-Порядок установки:
+Порядок установки:  <br>
 Installation instructions:
 
 ```
@@ -9,14 +9,14 @@ https://github.com/ivangrapher/telebot
 nano /$USER/telebot/main.py
 ```
 
-ставить свой телеграм токен
+ставить свой телеграм токен <br>
 put your telegram token
 
 ```
 bot = telebot.TeleBot("TOKEN")
 ```
 
-Запустить бота в tmux или screen
+Запустить бота в tmux или screen <br>
 Run bot in tmux or screen
 
 ```
