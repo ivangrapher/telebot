@@ -1,7 +1,14 @@
 # Bot for tracking the status of validators HAQQ #
 
-Порядок установки:  <br>
-Installation instructions:
+Бот необязателен для установки. По ссылке https://t.me/ayta_haqq_bot все могут добавить своего валидатора командой `/add valoper_address`. Бот будет отпралять Вам информацию именно о вашем валидаторе. Уведомлять вас о пропозалах. Проверять не попал ли ваш валидатор в тюрьму. Любой телеграм пользователь может добавить до 3 валидаторов. Вам не нужно вести свой токен или chat_id.
+
+The bot is not required to be installed. Using the link https://t.me/ayta_haqq_bot, everyone can add their own validator with the command `/add valoper_address`. The bot will send you information about your validator. Notify you of proposals. Check if your validator has been jailed. Any telegram user can add up to 3 validators. You don't need to lead your token or chat_id.
+
+Для тех кто хочет установить копию бота:
+For those who want to install a copy of the bot:
+
+## Порядок установки:  <br>
+## Installation Guide:
 
 ```
 cd
