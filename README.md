@@ -11,16 +11,15 @@ git clone https://github.com/ivangrapher/telebot
 Открыть файл tkn.py и ставить свой телеграм токен вместо TOKEN <br>
 Open the tkn.py file and put your telegram token instead of TOKEN <br>
 
-
 ```
 nano /$USER/telebot/tkn.py
 ```
 
-Открыть файл users.txt и поставить свой user_id
-Open users.txt file and put your user_id
+Открыть файл users.txt и поставить свой user_id <br>
+Open users.txt file and put your user_id <br>
 
 Запустить бота в tmux или screen <br>
-Run bot in tmux or screen
+Run bot in tmux or screen <br>
 
 ```
 python3 main.py
